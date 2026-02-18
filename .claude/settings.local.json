@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:parting.com)",
+      "WebFetch(domain:www.gasbuddy.com)",
+      "WebSearch",
+      "WebFetch(domain:www.aplaceformom.com)",
+      "WebFetch(domain:www.seniorliving.org)",
+      "WebFetch(domain:homehealthcarenews.com)",
+      "mcp__claude_ai_Linear__list_projects",
+      "mcp__claude_ai_Linear__get_project",
+      "mcp__claude_ai_Linear__list_issues",
+      "WebFetch(domain:github.com)",
+      "Bash(gh:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
