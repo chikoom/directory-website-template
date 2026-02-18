@@ -1,5 +1,6 @@
-# Directory Website Template - Implementation Summary
+# [AIDW] Directory Website Template - Implementation Summary
 
+**Code:** [AIDW] - AI Directory Website
 **Created:** February 18, 2026
 
 ## ✅ What Has Been Created
@@ -10,10 +11,12 @@
 - **Purpose:** System for launching multiple directory website projects across different niches
 
 ### 2. **Linear Project**
-- **Name:** Directory Website Template
+- **Name:** [AIDW] Directory Website Template
+- **Code:** All related projects use [AIDW] prefix in Linear
 - **URL:** https://linear.app/the-digital-baron/project/directory-website-template-87ad16c1d954
 - **Issues:** 28 stages (TDBADMS-199 through TDBADMS-227)
 - **Structure:** 6 phases, role-based assignments, clear dependencies
+- **Niche Projects:** Each niche project will be named [AIDW]-[NICHE_NAME]
 
 ### 3. **GitHub Repository**
 - **URL:** https://github.com/chikoom/directory-website-template
@@ -71,16 +74,25 @@
 
 ## 🔄 How to Use This System
 
+### **Project Coding Scheme:**
+All directory website projects use the **[AIDW]** prefix:
+- **[AIDW]** - Main template project
+- **[AIDW-HVAC]** - HVAC Contractors Directory niche project
+- **[AIDW-PLUMB]** - Plumbing Services Directory niche project
+- **[AIDW-SENIORLIVING]** - Senior Living Directory niche project
+
 ### **For Each New Niche:**
 
 1. **Clone the Linear Project**
    - Create a new project instance in Linear
-   - Name it after the niche (e.g., "HVAC Contractors Directory")
+   - Name it: `[AIDW-NICHE_CODE] Niche Name` (e.g., "[AIDW-HVAC] HVAC Contractors Directory")
    - Link it to the "Directory Website System" initiative
+   - Copy all 28 issues from template project
 
 2. **Fork/Clone the GitHub Repository**
    - Create a new repo for the specific niche
-   - Use the same folder structure
+   - Name it: `directory-[niche-slug]` (e.g., `directory-hvac-contractors`)
+   - Use the same folder structure from the template
    - Reference the template for all processes
 
 3. **Execute Stages Sequentially**
@@ -90,7 +102,13 @@
    - If 2.5 fails → Reject niche, restart with new niche
    - If 2.5 passes → Proceed to Stage 3
 
-4. **Customize for the Niche**
+4. **Tag All Outputs with [AIDW] Code**
+   - Use niche-specific code in all documentation
+   - All Linear issues tagged with project code
+   - All GitHub issues use the code prefix
+   - All deliverables reference the code for tracking
+
+5. **Customize for the Niche**
    - Research files → Update with niche-specific data
    - Database schema → Adjust fields for the niche
    - SaaS features (if applicable) → Define features specific to the niche

@@ -1,5 +1,6 @@
-# Directory Website Project - Video Notes
+# [AIDW] Directory Website Project - Video Notes
 
+**Code**: [AIDW] - AI Directory Website (Template Foundation)
 **Date Started:** 2026-02-17
 
 ## Video Insights & Comments

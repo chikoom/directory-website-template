@@ -1,7 +1,7 @@
-# AI Agent Execution Guide - Directory Website Template
+# AI Agent Execution Guide - [AIDW] Directory Website Template
 
+**Code:** [AIDW] - AI Directory Website
 **Purpose:** This guide enables AI agents to execute the 28-stage directory website template system autonomously with minimal human intervention.
-
 **Updated:** February 18, 2026
 
 ---
@@ -310,13 +310,18 @@ _(Stages 4-8 continue with similar structure)_
 
 ## 🎬 INITIATING A NEW NICHE PROJECT
 
+### Project Coding Scheme:
+All new niche projects use the format: **[AIDW-CODE]** where CODE is a 4-6 character niche identifier
+- Example: [AIDW-HVAC] for HVAC contractors, [AIDW-PLUMB] for plumbing services
+
 ### Template Prompt for User / AI Agent to Start:
 
 **When starting a new niche project, use this prompt:**
 
 ```
-PROJECT INITIALIZATION PROMPT
+PROJECT INITIALIZATION PROMPT [AIDW-CODE]
 
+Niche Code: [AIDW-CODE] (e.g., AIDW-HVAC, AIDW-SENIORLIVING)
 Niche: [NICHE_NAME]
 Vertical: [INDUSTRY_CATEGORY]
 Target Users: [WHO_WILL_USE_THIS]
@@ -325,18 +330,21 @@ Monetization Approach: [BUSINESS_MODEL_CHOICE]
 
 EXECUTION REQUEST:
 1. Clone the directory-website-template GitHub repository
-2. Create a new Linear project: "[NICHE_NAME] Directory"
-3. Link to "Directory Website System" initiative
-4. Begin execution at Stage 1 (Niche Ideation & Selection)
-5. For each stage, follow the AI Agent Execution Guide
-6. Validate outputs against acceptance criteria
-7. Report progress to [USER_EMAIL]
+2. Create new GitHub repo: directory-[niche-slug] (e.g., directory-hvac-contractors)
+3. Create new Linear project: "[AIDW-CODE] [NICHE_NAME] Directory"
+4. Link to "Directory Website System" initiative
+5. Tag all Linear issues with [AIDW-CODE] label
+6. Begin execution at Stage 1 (Niche Ideation & Selection)
+7. For each stage, follow the AI Agent Execution Guide
+8. Validate outputs against acceptance criteria
+9. Tag all deliverables with [AIDW-CODE] code
+10. Report progress to [USER_EMAIL]
 
 TIMELINE:
 - Estimated Phase 1 completion: [X] days
 - Estimated full project timeline: [X] weeks
 
-BEGIN EXECUTION
+BEGIN EXECUTION: [AIDW-CODE]
 ```
 
 ### Steps to Execute:

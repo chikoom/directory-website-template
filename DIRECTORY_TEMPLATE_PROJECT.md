@@ -1,8 +1,9 @@
-# Directory Website Template Project
+# [AIDW] Directory Website Template Project
 
+**Code**: [AIDW] - AI Directory Website (Template)
 **Template Purpose**: Reusable blueprint for launching directory website projects from niche selection to first revenue.
 
-**Usage**: When starting a new directory project, create an instance of this template and customize the niche-specific information.
+**Usage**: When starting a new directory project, create an instance of this template using the [AIDW-CODE] coding scheme (e.g., [AIDW-HVAC], [AIDW-PLUMB]) and customize the niche-specific information.
 
 **Total Phases**: 6 phases, 28 stages
 **Typical Duration**: 3-6 months (research to revenue)
