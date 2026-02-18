@@ -15,7 +15,11 @@
       "Bash(git init:*)",
       "Bash(git config:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "mcp__claude_ai_Linear__create_initiative",
+      "mcp__claude_ai_Linear__create_project",
+      "mcp__claude_ai_Linear__create_issue",
+      "Bash(git push:*)"
     ]
   }
 }
